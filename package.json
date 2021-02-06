@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "deploy": "gh-pages -d dist"
   }
 }
